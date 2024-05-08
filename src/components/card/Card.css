@@ -1,0 +1,36 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background-color: pink;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+    background-color: white;
+}
+.userid{
+    font-size: 1.5em;
+
+}
+.id{
+    font-size: 1.5em;
+
+}
+.title{
+    font-size: 1.6em;
+
+}.icons{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    gap:25px;
+}
+.model-edit{
+    position: absolute;
+    left:40%;
+}

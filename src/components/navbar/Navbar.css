@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    padding:30px;
+    background-color: rgb(239, 84, 110);
+    font-size:1.5em;
+    font-weight: 600;
+    position: relative;
+}
+.icon:hover{
+ color:purple; 
+ cursor: pointer;  
+}
+.add{
+    cursor: pointer;
+}
+.addmodelopen{
+    position:absolute;
+    top:90px;
+    right:40%;
+   cursor: pointer;
+}

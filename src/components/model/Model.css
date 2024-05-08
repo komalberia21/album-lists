@@ -1,0 +1,41 @@
+.add-model{
+    height:250px;
+    width:120%;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+   
+}
+.add-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size:1.5em;
+
+}
+.item{
+    display: flex;
+    gap:15px;
+}
+.from-btn{
+    font-size:0.5em;
+    padding:0.8em;
+    
+  
+}
+.cross{
+    position: absolute;
+    top:1px;
+    right:0px;
+    cursor: pointer;
+}
+.textarea{
+    height:100px;
+    font-weight: 400;
+}
